@@ -76,20 +76,37 @@ body {
 
 .myFirstTabButton {
     background-color: white;
-    font-size: 130%;
-    width: 20%;
+    width: 23%;
+    height: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0005), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0;
+    cursor: pointer;
+    border-left: 1px dashed grey;
+}
+
+.myFirstTabButton:hover {
+    background-color: #e6ffe6;
+    color: #ff4d4d;
 }
 
 .mySecondTabButton {
     background-color: #ff6b6b;
     color: white;
-    font-size: 130%;
-    width: 20%;
+    width: 23%;
+    height: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0005), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    /* border-right: 2px dotted grey; */
 }
+
+.mySecondTabButton:hover {
+    background-color: #e60000;
+}
+
+/* .myBtnGroup button {
+    float: left;
+} */
 
 .card {
     border-radius: 30px;
@@ -111,7 +128,12 @@ body {
     background-color: #4ECDC4;
     border-radius: 5px;
     font-size: 110%;
-    width: 100px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.myCreditBtn:hover {
+    background-color: #32b3aa;
 }
 
 .myCreditInp {

@@ -11,33 +11,35 @@
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-sm fixed-top">
-                <div class="mx-3">
-                    <a class="navbar-brand" href="#">
-                        <img src="../Assets/LOGO.png" alt="logo" style="width:40px;">
-                    </a>
-                </div>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class = "myNav-cartLink" href = "#">
-                            <label class = "myNav-badgeLabel">
-                                <span class=" myNav-badge">۳</span>
-                            </label>
-                            <i class="flaticon-smart-cart myNav-cart"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link myNav-account" href="#">حساب کاربری</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link myNav-exit" href="#">خروج</a>
-                    </li>
-                </ul>
-              </nav>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="mx-3">
+            <a class="navbar-brand" href="#">
+                <img src="../Assets/LOGO.png" alt="logo" style="width:40px;">
+            </a>
+        </div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class = "myNav-cartLink" href = "#">
+                    <label class = "myNav-badgeLabel">
+                        <span class=" myNav-badge">۳</span>
+                    </label>
+                    <i class="flaticon-smart-cart myNav-cart"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link myNav-account" href="#">حساب کاربری</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link myNav-exit" href="#">خروج</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="myTabs">
-        <button type="button" class="btn myFirstTabButton">سفارش ها</button>
-        <button type="button" class="btn mySecondTabButton">افزایش اعتبار</button>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn myFirstTabButton">سفارش ها</button>
+            <button type="button" class="btn mySecondTabButton">افزایش اعتبار</button>
+        </div>
         <div class="card myCardBorder">
             <div class="card-body">
                 <div class="container">
@@ -45,7 +47,7 @@
                         <div class="col-6">
                             <input type="text" class="form-control myCreditInp" id="credit" placeholder="میزان افزایش اعتبار">
                         </div>
-                        <div class="col-3">
+                        <div class="col-4">
                             <button type="button" class="btn myCreditBtn">افزایش</button>
                         </div>
                     </div>
