@@ -49,10 +49,80 @@ body {
     color: #ff4d4d;
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-smart-cart"]:before, [class*=" flaticon-smart-cart"]:before,
+[class^="flaticon-smart-cart"]:after, [class*=" flaticon-smart-cart"]:after {  
     color: #505050;
     font-size: 25px;
+}
+
+/* header */
+.myHeader {
+    height: 11vw;
+    background-color: #ff6b6b;
+}
+
+.myHeader-right {
+    margin-right: 5rem;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.myHeader-left {
+    margin-right: 30%;
+
+}
+
+[class^="flaticon-account"]:before, [class*=" flaticon-account"]:before,
+[class^="flaticon-account"]:after, [class*=" flaticon-account"]:after {   
+    font-size: 50px;
+}
+
+.myHeader-accountIcon {
+    color: #fff;
+}
+
+.myHeader-name {
+    font-size: 25px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+[class^="flaticon-phone"]:before, [class*=" flaticon-phone"]:before,
+[class^="flaticon-phone"]:after, [class*=" flaticon-phone"]:after {   
+    font-size: 25px;  
+}
+
+[class^="flaticon-mail"]:before, [class*=" flaticon-mail"]:before,
+[class^="flaticon-mail"]:after, [class*=" flaticon-mail"]:after {   
+    font-size: 25px;
+}
+
+[class^="flaticon-card"]:before, [class*=" flaticon-card"]:before,
+[class^="flaticon-card"]:after, [class*=" flaticon-card"]:after {   
+    font-size: 25px;
+}
+
+.myHeader-leftIcon {
+    color: #fff;
+}
+
+.myHeader-info {
+    font-size: 14px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .myHeader {
+        height: 13vw;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .myHeader {
+        height: 17vw;
+    }
 }
 
 /* footer */
