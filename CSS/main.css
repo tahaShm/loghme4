@@ -20,6 +20,8 @@
     color: #505050;
 }
 
-.myNav-cart {
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
     color: #505050;
+    font-size: 25px;
 }
