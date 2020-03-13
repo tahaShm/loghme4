@@ -74,39 +74,38 @@ body {
     text-align: center;
 }
 
-.myFirstTabButton {
+.myRightTabButton {
     background-color: white;
     width: 23%;
     height: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0005), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 0px 5px 5px 0;
-    cursor: pointer;
     border-left: 1px dashed grey;
+    cursor: pointer;
 }
 
-.myFirstTabButton:hover {
-    background-color: #e6ffe6;
-    color: #ff4d4d;
-}
-
-.mySecondTabButton {
-    background-color: #ff6b6b;
+.myLeftTabButton {
+    background-color: white;
     color: white;
     width: 23%;
     height: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0005), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px 0px 0px 5px;
     cursor: pointer;
-    /* border-right: 2px dotted grey; */
 }
 
-.mySecondTabButton:hover {
-    background-color: #e60000;
+.myActiveTab {
+    background-color: #ff6b6b;
 }
 
-/* .myBtnGroup button {
-    float: left;
-} */
+.myActiveTab:hover {
+    color: white;
+}
+
+.myNotActiveTab:hover {
+    background-color: #e6ffe6;
+    color: #ff4d4d;
+}
 
 .card {
     border-radius: 30px;
