@@ -1,8 +1,25 @@
+@import "./vazirFonts.css";
+
 /* navbar */
+.myNav-badgeLabel {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.myNav-badge {
+    background-color: #4ecdc4;
+    color: #fff;
+    border: 1px solid #40c0c0; 
+}
+
 .myNav-exit {
     color: #ff6b6b;
 }
 
 .myNav-account {
-    color: #050500;
+    color: #505050;
+}
+
+.myNav-cart {
+    color: #505050;
 }
