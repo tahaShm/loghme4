@@ -1,23 +1,48 @@
 @import "./vazirFonts.css";
 
 /* navbar */
+.myNav-cartLink {
+    text-decoration: none;
+}
+
+.myNav-cartLink:hover {
+    text-decoration: none;
+}
+
+.myNav-cartLink:hover .myNav-badge {
+    background-color: #32b3aa;
+}
+
 .myNav-badgeLabel {
     font-size: 10px;
     margin-bottom: 5px;
 }
 
 .myNav-badge {
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+    padding: 0px 5px;
+    border-radius: 20px;
     background-color: #4ecdc4;
     color: #fff;
-    border: 1px solid #40c0c0; 
+    border: 1px solid #32b3aa; 
+}
+
+.myNav-account {
+    color: #505050;
+}
+
+.myNav-account:hover {
+    color: #101010;
 }
 
 .myNav-exit {
     color: #ff6b6b;
 }
 
-.myNav-account {
-    color: #505050;
+.myNav-exit:hover {
+    color: #ff4d4d;
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
