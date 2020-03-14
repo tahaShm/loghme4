@@ -124,6 +124,12 @@ body {
     .myHeader {
         height: 17vw;
     }
+    .mySignupLogo {
+        margin-top: 10vw;
+    }
+    .mySignupTab {
+        top: 4vw;
+    }
 }
 
 /* sign up */
@@ -147,6 +153,44 @@ body {
 .separatorLine {
     height: 1.5px;
     background-color: #4ECDC4;
+}
+
+.mySignupBody {
+    background: url(../Assets/CoverPhoto.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.mySignupTab {
+    position: relative; 
+    text-align: center;
+}
+
+.myGreetingMsg {
+    position: relative;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.mySignupLogo {
+    display: block; 
+    position: relative; 
+    width: 10%; 
+    top: 0.5vw; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.mySignupCard {
+    opacity: 0.95;
+}
+.mySignupCard:hover {
+    opacity: 1;
 }
 
 /* footer */
@@ -207,7 +251,6 @@ body {
 .card {
     border-radius: 30px;
     width: 70%; 
-    /* height: 200px; */
     position: absolute; 
     top: 50%; 
     z-index: -1; 

@@ -8,66 +8,24 @@
     <link rel="stylesheet" type="text/css" href="../CSS/main.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-sm bg-light fixed-top">
-        <div class="mx-3">
-            <a class="navbar-brand" href="#">
-                <img src="../Assets/LOGO.png" alt="logo" style="width:40px;">
-            </a>
-        </div>
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class = "myNav-cartLink" href = "#">
-                    <label class = "myNav-badgeLabel">
-                        <span class=" myNav-badge">۳</span>
-                    </label>
-                    <i class="flaticon-smart-cart myNav-cart"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link myNav-account" href="#">حساب کاربری</a>
-            </li>
-            <li class="nav-item mx-3">
-                <a class="nav-link myNav-exit" href="#">خروج</a>
-            </li>
-        </ul>
-    </nav>
-    
-    <header class = "myHeader">
-        <div class="d-flex align-items-center h-100">
-            
-            <div class="d-flex align-items-center h-50 flex-fill text-right myHeader-right">
-                <i class="flaticon-account myHeader-accountIcon"></i>
-                <label class ="myHeader-name">هومان چمنی</label>
-            </div>
-            <div class="flex-fill text-right myHeader-left">
-                <div class = "d-flex align-items-center">
-                    <i class="flaticon-phone myHeader-leftIcon"></i>
-                    <label class = "myHeader-info">۰۹۳۰۰۳۲۳۲۳۱</label>  
-                </div>
-                <div class = "d-flex align-items-center">
-                    <i class="flaticon-mail myHeader-leftIcon"></i>
-                    <label class = "myHeader-info">hoomonchamani@yahoo.com</label>  
-                </div>
-                <div class = "d-flex align-items-center">
-                    <i class="flaticon-card myHeader-leftIcon"></i>
-                    <label class = "myHeader-info">۱۰۰۰۰۰ تومان</label>  
-                </div>
-            </div>
-        </div>
+<body class="mySignupBody">
+    <header>         
+        <img class="mySignupLogo" src="../Assets/LOGO.png" alt="logo">
+        <p class ="myGreetingMsg">اولین و بزرگترین وب سایت سفارش آنلاین غذا در دانشگاه تهران</p>
     </header>
-    <div class="myTabs">
+
+    <div class="mySignupTab">
         <div class="d-flex justify-content-center">
-            <button type="button" class="btn myRightTabButton myActiveTab" onclick="window.location.href = '#signUp';">ثبت نام</button>
-            <button type="button" class="btn myLeftTabButton myNotActiveTab" onclick="window.location.href = '#login';">ورود</button>
+            <button type="button" class="btn myRightTabButton myActiveTab">ثبت نام</button>
+            <button type="button" class="btn myLeftTabButton myNotActiveTab">ورود</button>
         </div>
-        <div id = "signUp" class="tab-pane active card myCardBorder">
+        <div id = "signUp" class="active card myCardBorder mySignupCard">
             <div class="card-body">
                 <div class="container">
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">نام و نام خانوادگی</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="text" class="form-control myCreditInp" id="name">
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -77,7 +35,7 @@
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">تلفن همراه</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="tel" class="form-control myCreditInp" id="phone">
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -87,7 +45,7 @@
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">ایمیل</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="email" class="form-control myCreditInp" id="email">
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -97,7 +55,7 @@
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">نام کاربری</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="text" class="form-control myCreditInp" id="username">
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -107,7 +65,7 @@
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">رمز عبور</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="password" class="form-control myCreditInp" id="password">
                         </div>
                     </div>
 
@@ -121,7 +79,7 @@
             </div>
         </div>
 
-        <div id = "login" class="tab-pane fade card myCardBorder">
+        <!-- <div id = "login" class="fade card myCardBorder">
             <div class="card-body">
                 <div class="container">
                     <div class="row justify-content-center signUpRow">
@@ -150,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="footer">
         <div class="pt-3">© تمامی حقوق مربوط به لقمه است.</div>
