@@ -4,7 +4,7 @@
     <title>Sign Up</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../CSS/font/flaticon.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../CSS/main.css">
 </head>
 
@@ -56,5 +56,104 @@
             </div>
         </div>
     </header>
+    <div class="myTabs">
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn myRightTabButton myActiveTab" onclick="window.location.href = '#signUp';">ثبت نام</button>
+            <button type="button" class="btn myLeftTabButton myNotActiveTab" onclick="window.location.href = '#login';">ورود</button>
+        </div>
+        <div id = "signUp" class="tab-pane active card myCardBorder">
+            <div class="card-body">
+                <div class="container">
+                    <div class="row justify-content-center signUpRow">
+                        <div class="col-4 signUpCol ">نام و نام خانوادگی</div>
+                        <div class="col-6">
+                            <input type="text" class="form-control myCreditInp" id="credit">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class = "col-9 separatorLine"></div>
+                    </div>
+
+                    <div class="row justify-content-center signUpRow">
+                        <div class="col-4 signUpCol ">تلفن همراه</div>
+                        <div class="col-6">
+                            <input type="text" class="form-control myCreditInp" id="credit">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class = "col-9 separatorLine"></div>
+                    </div>
+
+                    <div class="row justify-content-center signUpRow">
+                        <div class="col-4 signUpCol ">ایمیل</div>
+                        <div class="col-6">
+                            <input type="text" class="form-control myCreditInp" id="credit">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class = "col-9 separatorLine"></div>
+                    </div>
+
+                    <div class="row justify-content-center signUpRow">
+                        <div class="col-4 signUpCol ">نام کاربری</div>
+                        <div class="col-6">
+                            <input type="text" class="form-control myCreditInp" id="credit">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class = "col-9 separatorLine"></div>
+                    </div>
+
+                    <div class="row justify-content-center signUpRow">
+                        <div class="col-4 signUpCol ">رمز عبور</div>
+                        <div class="col-6">
+                            <input type="text" class="form-control myCreditInp" id="credit">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <button type="button" class="btn myCreditBtn">ثبت نام</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id = "login" class="tab-pane fade card myCardBorder">
+            <div class="card-body">
+                <div class="container">
+                    <div class="row justify-content-center signUpRow">
+                        <div class="col-4 signUpCol ">نام کاربری</div>
+                        <div class="col-6">
+                            <input type="text" class="form-control myCreditInp" id="credit">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class = "col-9 separatorLine"></div>
+                    </div>
+
+                    <div class="row justify-content-center signUpRow">
+                        <div class="col-4 signUpCol ">رمز عبور</div>
+                        <div class="col-6">
+                            <input type="text" class="form-control myCreditInp" id="credit">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <button type="button" class="btn myCreditBtn">ورود</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="pt-3">© تمامی حقوق مربوط به لقمه است.</div>
+    </div>
 </body>
 </html>
