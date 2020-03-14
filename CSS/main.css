@@ -137,51 +137,54 @@ body {
     text-align: center;
   }
 
-/* profile orders */
+/* profile */
 .myTabs {
     position: relative; 
     margin-top: 10%; 
     text-align: center;
 }
 
-.myFirstTabButton {
-    background-color: white;
+.myRightTabButton {
     width: 23%;
     height: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0005), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 0px 5px 5px 0;
-    cursor: pointer;
     border-left: 1px dashed grey;
+    cursor: pointer;
 }
 
-.myFirstTabButton:hover {
-    background-color: #e6ffe6;
-    color: #ff4d4d;
-}
-
-.mySecondTabButton {
-    background-color: #ff6b6b;
+.myLeftTabButton {
     color: white;
     width: 23%;
     height: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0005), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px 0px 0px 5px;
     cursor: pointer;
-    /* border-right: 2px dotted grey; */
 }
 
-.mySecondTabButton:hover {
-    background-color: #e60000;
+.myActiveTab {
+    color: white;
+    background-color: #ff6b6b;
 }
 
-/* .myBtnGroup button {
-    float: left;
-} */
+.myActiveTab:hover {
+    color: white;
+}
+
+.myNotActiveTab {
+    color: black;
+    background-color: white;
+}
+
+.myNotActiveTab:hover {
+    background-color: #e6ffe6;
+    color: #ff4d4d;
+}
 
 .card {
     border-radius: 30px;
     width: 70%; 
-    height: 200px;
+    /* height: 200px; */
     position: absolute; 
     top: 50%; 
     z-index: -1; 
@@ -212,6 +215,55 @@ body {
     font-size: 110%;
 }
 
-.myRow {
-    padding-top: 70px;
+.myCreditRow {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.myOrderRow {
+    margin-top: 25px;
+    border: 1px solid #bfbfbf;
+    border-radius: 6px;
+}
+
+.myMiddleCol {
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+
+.myOrderCol {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.myDelivering {
+    margin-top: 5px;
+    color: #104410;
+    background-color: #adebad;
+    font-size: 80%;
+    margin-top: 8px;
+    width: 60%;
+    height: 65%;
+}
+
+.mySearching {
+    color: #024b5d;
+    background-color: #ccf5ff;
+    font-size: 80%;
+    margin-top: 8px;
+    width: 70%;
+    height: 65%;
+}
+
+.mySeeBill {
+    color: black;
+    background-color: #FFE66D;
+    font-size: 80%;
+    margin-top: 8px;
+    width: 60%;
+    height: 65%;
+}
+
+.myLastRow {
+    margin-bottom: 20px;
 }
