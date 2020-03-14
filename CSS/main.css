@@ -127,6 +127,16 @@ body {
 }
 
 /* sign up */
+.mySignUpHeader {
+    margin-top: 60px;
+    height: 230px;
+    background-image: url("../Assets/Cover-thin.png");
+    box-shadow:inset 0 0 0 2000px rgba(255, 0, 0, 0.6);
+    background-size: 100% 40vw;
+    background-position: 5px;
+    opacity: 0.5;
+}
+
 .signUpRow:first-of-type {
     margin-top: 20px;
 }

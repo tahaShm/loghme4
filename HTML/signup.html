@@ -33,41 +33,23 @@
         </ul>
     </nav>
     
-    <header class = "myHeader">
+    <header class = "mySignUpHeader">
         <div class="d-flex align-items-center h-100">
             
-            <div class="d-flex align-items-center h-50 flex-fill text-right myHeader-right">
-                <i class="flaticon-account myHeader-accountIcon"></i>
-                <label class ="myHeader-name">هومان چمنی</label>
-            </div>
-            <div class="flex-fill text-right myHeader-left">
-                <div class = "d-flex align-items-center">
-                    <i class="flaticon-phone myHeader-leftIcon"></i>
-                    <label class = "myHeader-info">۰۹۳۰۰۳۲۳۲۳۱</label>  
-                </div>
-                <div class = "d-flex align-items-center">
-                    <i class="flaticon-mail myHeader-leftIcon"></i>
-                    <label class = "myHeader-info">hoomonchamani@yahoo.com</label>  
-                </div>
-                <div class = "d-flex align-items-center">
-                    <i class="flaticon-card myHeader-leftIcon"></i>
-                    <label class = "myHeader-info">۱۰۰۰۰۰ تومان</label>  
-                </div>
-            </div>
         </div>
     </header>
     <div class="myTabs">
         <div class="d-flex justify-content-center">
-            <button type="button" class="btn myRightTabButton myActiveTab" onclick="window.location.href = '#signUp';">ثبت نام</button>
-            <button type="button" class="btn myLeftTabButton myNotActiveTab" onclick="window.location.href = '#login';">ورود</button>
+            <button type="button" class="btn myRightTabButton myActiveTab">ثبت نام</button>
+            <button type="button" class="btn myLeftTabButton myNotActiveTab">ورود</button>
         </div>
-        <div id = "signUp" class="tab-pane active card myCardBorder">
+        <div class="card myCardBorder">
             <div class="card-body">
                 <div class="container">
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">نام و نام خانوادگی</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="text" class="form-control myCreditInp" id="credit1">
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -77,7 +59,7 @@
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">تلفن همراه</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="text" class="form-control myCreditInp" id="credit2">
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -87,7 +69,7 @@
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">ایمیل</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="text" class="form-control myCreditInp" id="credit3">
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -97,7 +79,7 @@
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">نام کاربری</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="text" class="form-control myCreditInp" id="credit4">
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -107,7 +89,7 @@
                     <div class="row justify-content-center signUpRow">
                         <div class="col-4 signUpCol ">رمز عبور</div>
                         <div class="col-6">
-                            <input type="text" class="form-control myCreditInp" id="credit">
+                            <input type="text" class="form-control myCreditInp" id="credit5">
                         </div>
                     </div>
 
@@ -121,7 +103,7 @@
             </div>
         </div>
 
-        <div id = "login" class="tab-pane fade card myCardBorder">
+        <!-- <div class="card myCardBorder">
             <div class="card-body">
                 <div class="container">
                     <div class="row justify-content-center signUpRow">
@@ -149,7 +131,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="footer">
