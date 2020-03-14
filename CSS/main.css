@@ -1,7 +1,7 @@
 @import "./vazirFonts.css";
 
 body {
-    background-color: #F7FFF7;
+    background-color: #F7FFF7; 
 }
 
 /* navbar */
@@ -57,6 +57,7 @@ body {
 
 /* header */
 .myHeader {
+    margin-top: 60px;
     height: 11vw;
     background-color: #ff6b6b;
 }
@@ -140,7 +141,7 @@ body {
 /* profile */
 .myTabs {
     position: relative; 
-    margin-top: 10%; 
+    margin-top: 70px; 
     text-align: center;
 }
 
