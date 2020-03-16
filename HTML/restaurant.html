@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="fa-IR">
 <head>
-    <title>Restaurant</title>
-    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../CSS/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Restaurant</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-sm bg-light fixed-top">
+        <div class="mx-3">
+            <a class="navbar-brand" href="#">
+                <img src="../Assets/LOGO.png" alt="logo" style="width:40px;">
+            </a>
+        </div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class = "myNav-cartLink" href = "#">
+                    <label class = "myNav-badgeLabel">
+                        <span class=" myNav-badge">۳</span>
+                    </label>
+                    <i class="flaticon-smart-cart myNav-cart"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link myNav-account" href="#">حساب کاربری</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link myNav-exit" href="#">خروج</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <header class = "myHeader">
+    </header>
 
+    <div>
+        <img src="../Assets/McDonald'sLogo.png" alt="restaurant logo" class="myRestaurantLogo">
+        <p class="myRestaurantName">رستوران خامس</p>
+    </div>
+
+    <div class="container myRestaurantContainer">
+        <div class="row">
+            <div class="col-4">
+                <div class="card myRestaurantCard">
+                    <div class="card-body p-2">
+                        <h5 class="card-title centerText">سبد خرید</h5>
+                        <hr class="myCartHr">
+                        <div class="myCartBorder">
+                            <div class="d-flex mt-1 ml-2">
+                                <div class="ml-auto p-2">پیتزا اعلا</div>
+                                <div class="mt-2">
+                                    <div class="d-flex flex-row">
+                                        <a href="#" class="plusButton">
+                                            <i class="flaticon-plus"></i>
+                                        </a>
+                                        <p class="pl-3">۲</p>
+                                        <a class="minusButton" href="#">
+                                            <i class="flaticon-minus"></i>
+                                        </a>
+                                    </div>
+                                    <p class="pl-2 myFoodPrice">۷۸۰۰۰ تومان</p>
+                                </div>
+                            </div>
+                            <hr class="myCartFoodHr">
+
+                            <div class="d-flex ml-2 myNotFirstFood">
+                                <div class="ml-auto p-2">پیتزا نیمه اعلا</div>
+                                <div class="mt-2">
+                                    <div class="d-flex flex-row">
+                                        <a href="#" class="plusButton">
+                                            <i class="flaticon-plus"></i>
+                                        </a>
+                                        <p class="pl-3">۱</p>
+                                        <a class="minusButton" href="#">
+                                            <i class="flaticon-minus"></i>
+                                        </a>
+                                    </div>
+                                    <p class="pl-2 myFoodPrice">۲۹۰۰۰ تومان</p>
+                                </div>
+                          </div>
+                          <hr class="myCartFoodHr">
+                      </div>
+
+                      <p class="myTotalPrice">جمع کل:‌ <strong>۱۰۷۰۰۰ تومان</strong></p>
+                      <button type="button" class="btn myConfirmBtn">تایید نهایی</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-7 order-2">
+                <!-- TODO: Should add منوی غذا title and cards for different foods (use myRestaurantCard class for card) -->
+                <!-- TODO: Delete all style tags in all html files -->
+                <!-- TODO: Check if footer works correctly in this page and probably debug footer in signup -->
+                <!-- TODO: Try to make main.css better with more efficient classes -->
+                <!-- TODO: Test all of the pages with different resolutions -->
+            </div>
+
+            <div class="col-1 order-1">
+                <div class="d-flex myCartMenuDivisor">
+                    <div class="myCartMenuDivisorBorder">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="pt-3">© تمامی حقوق مربوط به لقمه است.</div>
+    </div>
 </body>
 </html>
