@@ -372,6 +372,8 @@ body {
 }
 
 .myRestaurantContainer {
+    margin: auto;
+    width: 95%;
     margin-top: 3vw;
 }
 
@@ -396,12 +398,18 @@ body {
 }
 
 .plusButton {
+    text-decoration: none;
     margin-right: 20%; 
     margin-left: -15px;
 }
 
 .minusButton {
+    text-decoration: none;
     margin-right: -10px;
+}
+
+.plusButton:link, .minusButton:link {
+    text-decoration: none;
 }
 
 .myFoodPrice {
@@ -440,7 +448,60 @@ body {
 }
 
 .myCartMenuDivisorBorder {
-    border-right: 3px dashed rgb(172, 195, 172);
+    border-right: 2px dashed rgb(172, 195, 172);
+}
+
+.menu {
+    width: 59%;
+}
+
+.menuFoodCard {
+    box-shadow: 0px 0px 4px rgb(162, 189, 162);
+    border-radius: 7px;
+}
+
+.menuFoodImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.menuStarLabel {
+    padding-top: 3px;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.foodNameLabel {
+    font-size: 15px;
+}
+
+.menuFoodPrice {
+    text-align: center;
+    font-size: 13px;
+}
+
+.addToCartButton {
+    font-size: 1vw;
+    background-color: #FFE66D;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 90%;
+}
+
+.outOfOrderButton {
+    font-size: 1vw;
+    background-color: #d8d0d0;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+[class^="flaticon-star"]:before, [class*=" flaticon-star"]:before,
+[class^="flaticon-star"]:after, [class*=" flaticon-star"]:after {  
+    color: #ffa526;
+    font-size: 11px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -468,5 +529,16 @@ body {
     }
     .myRestaurantContainer {
         margin-top: 15vw;
+    }
+    .foodNameLabel {
+        padding-top: 2px;
+        font-size: 13px;
+    }
+    .menuFoodPrice {
+        font-size: 11px;
+    }
+    .addToCartButton, .outOfOrderButton {
+        font-size: 9px;
+        font-weight: bold;
     }
 }
