@@ -2,7 +2,7 @@
 
 body {
     background-color: #F7FFF7;
-    min-height: 100vh;
+    min-height: calc(100vh - 170px);
     position: relative;
     max-width: 100%;
     overflow-x: hidden;
@@ -163,10 +163,7 @@ body {
 }
 
 .mySignupBody {
-    background: url(../Assets/CoverPhoto.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(../Assets/CoverPhoto.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
