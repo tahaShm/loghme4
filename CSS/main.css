@@ -4,10 +4,14 @@ body {
     background-color: #F7FFF7;
     min-height: 100vh;
     position: relative;
-    z-index: -1;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* navbar */
+.myNav-logo {
+    width: 40px;
+}
 .myNav-cartLink {
     text-decoration: none;
 }
@@ -198,19 +202,20 @@ body {
 /* footer */
 .footer {
     position: absolute;
-    bottom: 0;
+    top: 100%;
     width: 100%;
     height: 50px;
     background-color: #1A535C;
     color: white;
     text-align: center;
-    margin-top: 10px;
-  }
+    margin-top: 60px;
+}
 
 /* profile */
 .myTabs {
-    position: relative; 
+    position: relative;
     margin-top: 70px; 
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -235,6 +240,7 @@ body {
 .myActiveTab {
     color: white;
     background-color: #ff6b6b;
+    z-index: 3;
 }
 
 .myActiveTab:hover {
@@ -244,6 +250,7 @@ body {
 .myNotActiveTab {
     color: black;
     background-color: white;
+    z-index: 3;
 }
 
 .myNotActiveTab:hover {
@@ -254,11 +261,14 @@ body {
 .myMiddleCard {
     border-radius: 30px;
     width: 70%; 
-    position: absolute; 
+    margin: 0 auto;
+    z-index: 2;
+    margin-top: -25px;
+    /* position: absolute; 
     top: 50%; 
-    z-index: -1; 
+     
     left: 50%; 
-    transform: translateX(-50%);
+    transform: translateX(-50%); */ */
 }
 
 .myCardBorder {
@@ -374,10 +384,11 @@ body {
 .myRestaurantContainer {
     margin: auto;
     width: 95%;
-    margin-top: 3vw;
+    margin-top: 10vw;
 }
 
 .myRestaurantCard {
+    margin-top: 6vw;
     border-radius: 7px; 
     box-shadow: 0px 0px 4px rgb(162, 189, 162);
 }
@@ -442,7 +453,12 @@ body {
     display:block;
 }
 
+.divisorDiv {
+    width: 5%;
+}
+
 .myCartMenuDivisor {
+    padding-top: 6vw;
     height: 100%;  
     margin-right: 25%;
 }
@@ -453,6 +469,21 @@ body {
 
 .menu {
     width: 59%;
+}
+
+.menuTitle {
+    height: 6vw;
+}
+
+.menuTitleLabel {
+    color: #1A535C;
+    font-size: 2.5vw;
+}
+
+.myMenuTitleHr {
+    width: 14vw; 
+    border-top: 2px solid #1A535C; 
+    margin-top: -5px;
 }
 
 .menuFoodCard {
